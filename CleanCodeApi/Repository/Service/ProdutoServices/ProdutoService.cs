@@ -15,14 +15,14 @@ namespace CleanCodeApi.Repository.Service.ProdutoServices
 
         public List<Produto> GetProdutos()
         {
-            if (true)
+            if (false)
             {
                 _notificadorErrosServices.NotificarError("voce não tem permissão para ver os produtos");
             }
 
             // imagine varios processos
 
-            if (true)
+            if (false)
             {
                 _notificadorErrosServices.NotificarError("Outros errros");
                 //return null;
